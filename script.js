@@ -49,3 +49,24 @@ function makegreen(e){
 
 }
 buttonContainer.addEventListener("mouseover",makegreen);
+
+function changetextcolor(e){
+//    if( e.target.textContent==="red"){
+//     e.target.style.backgroundColor="red"
+//    }
+//     if( e.target.textContent==="blue"){
+//     e.target.style.backgroundColor="blue"
+//    }
+//    if( e.target.textContent==="white"){
+//     e.target.style.backgroundColor="white"
+//    }
+//    if( e.target.textContent==="yellow"){
+//     e.target.style.backgroundColor="yellow"
+//    }
+
+   e.target.style.backgroundColor=e.target.textContent
+
+
+
+}
+buttonContainer.addEventListener("mouseover",changetextcolor);
